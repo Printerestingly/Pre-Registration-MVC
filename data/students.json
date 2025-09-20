@@ -1,0 +1,93 @@
+[
+  {
+    "student_id": "69000001",
+    "prefix": "Mr. ",
+    "first_name": "John",
+    "last_name": "Lennan",
+    "birthdate": "2008-12-24",
+    "current_school": "High School ABC",
+    "email": "student01@school.test"
+  },
+  {
+    "student_id": "69000002",
+    "prefix": "Ms. ",
+    "first_name": "Young",
+    "last_name": "Turk",
+    "birthdate": "2011-12-24",
+    "current_school": "Highway School",
+    "email": "student05@school.test"
+  },
+  {
+    "student_id": "69000003",
+    "prefix": "Mr. ",
+    "first_name": "Man",
+    "last_name": "Money",
+    "birthdate": "2007-12-24",
+    "current_school": "High School ABC",
+    "email": "student03@school.test"
+  },
+  {
+    "student_id": "69000004",
+    "prefix": "Ms. ",
+    "first_name": "Princess",
+    "last_name": "Oui",
+    "birthdate": "2008-01-01",
+    "current_school": "High School ABC",
+    "email": "student04@school.test"
+  },
+  {
+    "student_id": "69000005",
+    "prefix": "Mr. ",
+    "first_name": "Bla",
+    "last_name": "Bue",
+    "birthdate": "2006-03-15",
+    "current_school": "High School ABC",
+    "email": "student05@school.test"
+  }
+  ,
+  {
+    "student_id": "69000006",
+    "prefix": "Mr. ",
+    "first_name": "Jin",
+    "last_name": "Ja",
+    "birthdate": "2008-12-24",
+    "current_school": "High School ABC",
+    "email": "student06@school.test"
+  },
+  {
+    "student_id": "69000007",
+    "prefix": "Mr. ",
+    "first_name": "Wait",
+    "last_name": "Long",
+    "birthdate": "2008-12-24",
+    "current_school": "High School ABC",
+    "email": "student07@school.test"
+  },
+  {
+    "student_id": "69000008",
+    "prefix": "Ms. ",
+    "first_name": "Star",
+    "last_name": "Burst",
+    "birthdate": "2008-12-24",
+    "current_school": "High School XYZ",
+    "email": "student08@school.test"
+  },
+  {
+    "student_id": "69000009",
+    "prefix": "Mr. ",
+    "first_name": "Hunt",
+    "last_name": "Hint",
+    "birthdate": "2008-12-24",
+    "current_school": "High School XYZ",
+    "email": "student09@school.test"
+  },
+  {
+    "student_id": "69000010",
+    "prefix": "Mr. ",
+    "first_name": "James",
+    "last_name": "Carter",
+    "birthdate": "2008-12-24",
+    "current_school": "High School XYZ",
+    "email": "student10@school.test"
+  }
+]

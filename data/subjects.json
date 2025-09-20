@@ -1,0 +1,101 @@
+[
+  {
+    "subject_code": "0550301",
+    "name": "Faculty Course 1",
+    "credits": 3,
+    "teacher": "Dr. Brown",
+    "prerequisite_code": null,
+    "max_capacity": 20,
+    "current_enrolled": 5
+  },
+  {
+    "subject_code": "0550602",
+    "name": "Faculty Course 2",
+    "credits": 3,
+    "teacher": "Ms. Green",
+    "prerequisite_code": null,
+    "max_capacity": -1,
+    "current_enrolled": 1
+  },
+  {
+    "subject_code": "0550803",
+    "name": "Faculty Course 3",
+    "credits": 3,
+    "teacher": "Ms. Green",
+    "prerequisite_code": null,
+    "max_capacity": 20,
+    "current_enrolled": 0
+  },
+  {
+    "subject_code": "0550804",
+    "name": "Faculty Course 4",
+    "credits": 3,
+    "teacher": "Mrs. Pink",
+    "prerequisite_code": null,
+    "max_capacity": -1,
+    "current_enrolled": 0
+  },
+  {
+    "subject_code": "0550905",
+    "name": "Faculty Course 5",
+    "credits": 3,
+    "teacher": "Ms. Green",
+    "prerequisite_code": null,
+    "max_capacity": 20,
+    "current_enrolled": 0
+  },
+  {
+    "subject_code": "0550606",
+    "name": "Faculty Course 6",
+    "credits": 3,
+    "teacher": "Dr. Brown",
+    "prerequisite_code": null,
+    "max_capacity": -1,
+    "current_enrolled": 0
+  },
+  {
+    "subject_code": "9069100",
+    "name": "GenEd Course 1",
+    "credits": 2,
+    "teacher": "Dr. Brown",
+    "prerequisite_code": null,
+    "max_capacity": 10,
+    "current_enrolled": 1
+  },
+  {
+    "subject_code": "9069101",
+    "name": "GenEd Course 2",
+    "credits": 2,
+    "teacher": "Dr. Black",
+    "prerequisite_code": null,
+    "max_capacity": 10,
+    "current_enrolled": 0
+  },
+  {
+    "subject_code": "9069102",
+    "name": "GenEd Course 3",
+    "credits": 2,
+    "teacher": "Ms. Green",
+    "prerequisite_code": null,
+    "max_capacity": 10,
+    "current_enrolled": 1
+  },
+  {
+    "subject_code": "9069103",
+    "name": "GenEd Course 4",
+    "credits": 2,
+    "teacher": "Dr. Black",
+    "prerequisite_code": null,
+    "max_capacity": 10,
+    "current_enrolled": 5
+  },
+  {
+    "subject_code": "90691234",
+    "name": "Advanced GenEd (needs prereq)",
+    "credits": 2,
+    "teacher": "Dr. Silver",
+    "prerequisite_code": "0550301",
+    "max_capacity": 5,
+    "current_enrolled": 5
+  }
+]
