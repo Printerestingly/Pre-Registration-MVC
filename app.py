@@ -1,8 +1,6 @@
 import os
 import tkinter as tk
 from tkinter import messagebox
-import tkinter.font as tkFont
-from tkinter import ttk
 
 from controllers.auth_controller import AuthController
 from controllers.student_controller import StudentController
@@ -34,20 +32,6 @@ enrollment_controller = EnrollmentController(db)
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-
-        # # --- Global font setup ---
-        # default_font = tkFont.nametofont('TkDefaultFont')
-        # text_font    = tkFont.nametofont('TkTextFont')
-        # fixed_font   = tkFont.nametofont('TkFixedFont')
-        # menu_font    = tkFont.nametofont('TkMenuFont')
-        # heading_font = tkFont.nametofont('TkHeadingFont')
-
-        # # เซ็ต family + size ตามต้องการ
-        # default_font.configure(family='Segoe UI', size=10)
-        # text_font.configure(family='Segoe UI', size=10)
-        # fixed_font.configure(family='Cascadia Mono', size=10)  # สำหรับ Text ที่เป็น mono
-        # menu_font.configure(family='Segoe UI', size=10)
-        # heading_font.configure(family='Segoe UI', size=12, weight='bold')
 
         self.title('Pre-Enrollment MVC')
         self.geometry('1000x650')

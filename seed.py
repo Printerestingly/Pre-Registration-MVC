@@ -6,15 +6,15 @@ def seed_all(db):
     base_birth = date.today().replace(year=date.today().year - 16) # ~16yo
     for i in range(10):
         sid = f"69{str(i+1).zfill(6)}" # 69000001 ... 69000010
-    students.append({
-        'student_id': sid,
-        'prefix': 'Mr. ' if i % 2 == 0 else 'Ms. ',
-        'first_name': f'Name{i+1}',
-        'last_name': f'Lastname{i+1}',
-        'birthdate': (base_birth - timedelta(days=30*i)).isoformat(),
-        'current_school': 'High School ABC',
-        'email': f'student{i+1}@school.test'
-    })
+        students.append({
+            'student_id': sid,
+            'prefix': 'Mr. ' if i % 2 == 0 else 'Ms. ',
+            'first_name': f'Name{i+1}',
+            'last_name': f'Lastname{i+1}',
+            'birthdate': (base_birth - timedelta(days=30*i)).isoformat(),
+            'current_school': 'High School ABC',
+            'email': f'student{i+1}@school.test'
+        })
     db.write('students', students)
 
     subjects = []
